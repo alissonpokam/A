@@ -1,0 +1,32 @@
+
+#include <stack>
+#include<queue>
+
+using namespace std;
+{
+  //LIFO
+  stack<int>bags;
+  bags.push(1);
+  bags.push(2);
+  bags.push(3);
+  while(!bags.empty())
+  {
+  	cout<<bags.top() <<end1;
+  	bags.pop;
+  }
+
+  
+ // First in fist out
+ queue<int> ticket_counter;
+ 
+ticket_couter.push(1);
+ticket_couter.push(2); 
+ticket_couter.push(3);
+
+while(!ticket_couter.empty())
+{
+	cout<<ticket_counter.font()<<end1;
+	ticket_counter.pop();
+}
+  
+}
